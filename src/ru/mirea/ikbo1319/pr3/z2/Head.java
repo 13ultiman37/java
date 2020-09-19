@@ -3,6 +3,12 @@ package ru.mirea.ikbo1319.pr3.z2;
 public class Head {
     String haircolor, eyecolor, name;
 
+    public Head(String haircolor, String eyecolor, String name) {
+        this.haircolor = haircolor;
+        this.eyecolor = eyecolor;
+        this.name = name;
+    }
+
     public void setHaircolor(String haircolor) {
         this.haircolor = haircolor;
     }

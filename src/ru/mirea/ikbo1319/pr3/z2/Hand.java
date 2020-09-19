@@ -3,7 +3,7 @@ package ru.mirea.ikbo1319.pr3.z2;
 public class Hand {
     String orientation;
 
-    public void setOrientation(String orientation) {
+    public Hand(String orientation) {
         this.orientation = orientation;
     }
 
@@ -11,4 +11,7 @@ public class Hand {
         return orientation;
     }
 
+    public void setOrientation(String orientation) {
+        this.orientation = orientation;
+    }
 }
