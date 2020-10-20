@@ -8,18 +8,17 @@ import java.awt.event.ActionListener;
 
 
 public class Butt implements ActionListener {
-    JFrame jF;
+    JFrame jFrame;
 
-    Butt(JFrame jF) {
-        this.jF = jF;
+    Butt(JFrame jFrame) {
+        this.jFrame = jFrame;
     }
-
 
     @Override
     public void actionPerformed(ActionEvent e) {
         Paint paint = new Paint();
-        jF.add(paint);
-        jF.repaint();
+        jFrame.add(paint);
+        jFrame.repaint();
     }
 
 }
