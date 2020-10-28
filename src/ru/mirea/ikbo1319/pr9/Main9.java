@@ -9,10 +9,9 @@ public class Main9 extends JFrame {
         JFrame frame = new JFrame("Фигуры");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(700, 700);
-        frame.setVisible(true);
         Button button = new Button("Press");
         frame.add(button, BorderLayout.SOUTH);
         button.addActionListener(new Butt(frame));
-
+        frame.setVisible(true);
     }
 }
